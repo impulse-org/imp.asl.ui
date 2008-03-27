@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: UI for Analysis Specification Languages
+Bundle-SymbolicName: org.eclipse.imp.asl.ui;singleton:=true
+Bundle-Version: 0.1.0
+Bundle-Activator: org.eclipse.imp.asl.ui.Activator
+Bundle-Vendor: rfuhrer@watson.ibm.com
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.imp.asl,
+ org.eclipse.core.resources,
+ org.eclipse.jdt.core
+Eclipse-LazyStart: true

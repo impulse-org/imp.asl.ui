@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.popupMenus">
+      <objectContribution
+            objectClass="org.eclipse.jdt.core.IJavaProject"
+            adaptable="false"
+            nameFilter="*"
+            id="org.eclipse.imp.asl.projectContextMenu">
+         <action
+               label="Enable ASL Builder"
+               tooltip="Enable the ASL builder for this project"
+               class="org.eclipse.imp.asl.ui.actions.EnableASLNature"
+               id="org.eclipse.imp.asl.actions.enableNatureAction">
+         </action>
+      </objectContribution>
+   </extension>
+
+</plugin>
